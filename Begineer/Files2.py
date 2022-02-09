@@ -1,0 +1,5 @@
+file = open('example2.txt', 'w')
+file.write("_______HELLO WORLD _________")
+file.write("________WELCOME WELCOME________")
+file.close()
+print(file)

@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+{% block content %}
+<center><h1>{% block title %}  Regestration form  {% endblock %}</h1></center>
+Nasa every news updates <a href="/newUser"> click here </a>
+    <form action="/registerUser" method="POST">
+<table>
+    <tr>
+        <td>
+            <input type="text" name="username" placeholder="Enter username"/>
+        </td>
+    </tr>
+     <tr>
+        <td>
+            <input type="password" name="password" placeholder="Enter password"/>
+        </td>
+    </tr>
+     <tr>
+        <td>
+            <input type="email" name="email" placeholder="Enter email"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" name="mobile number" placeholder="Enter mobile number"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" value="Register"  placeholder="Submit"/>
+        </td>
+    </tr>
+</table>
+        </form>
+{% endblock %}
